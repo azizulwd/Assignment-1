@@ -119,3 +119,22 @@ Blog-css
     font-weight: 900;
     margin-bottom: 15px;
 }
+
+
+
+/* ===================
+Counter-css
+=================== */
+.counter {
+    background: #fff;
+    box-shadow: 0 0 20px lightgray;
+    border-radius: 20px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.counter div > h1 {
+    margin-bottom: 10px;
+    color: #18191e;
+    font-size: 50px;
+}
