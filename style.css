@@ -17,3 +17,49 @@ section{
     width: 85%;
     margin: 0 auto;
 }
+.flexible_container{
+    display: flex;
+    align-items: center;
+}
+.child{
+    width: 50%;
+}
+h1, h2{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.orange_color{
+    color: #fb934a;
+}
+.h2Color{
+    color: #707070;
+}
+.pLine_height{
+    line-height: 30px;
+}
+.link_btn {
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #fb954b, #ff4b30);
+    padding: 15px 25px;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fb954b;
+}
+
+
+/* ===================
+Header-css
+=================== */
+.header_top{
+    margin-top: 70px;
+}
+.header_description p {
+    color: dimgray;
+    font-size: 17px;
+}
+.header_img img {
+    width: 100%;
+}
