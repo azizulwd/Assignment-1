@@ -10,9 +10,6 @@ Common-css
 body{
     font-family: 'Roboto', sans-serif;
 }
-section{
-    margin-bottom: 60px;
-}
 .container{
     width: 85%;
     margin: 0 auto;
@@ -24,8 +21,13 @@ section{
 .child{
     width: 50%;
 }
-h1, h2{
+h1{
     font-size: 60px;
+}
+h2{
+    font-size: 35px;
+}
+h1, h2{
     font-weight: 900;
     margin-bottom: 50px;
 }
@@ -48,6 +50,9 @@ h1, h2{
     border-radius: 40px;
     box-shadow: 0 0 10px #fb954b;
 }
+.secMargin{
+    margin-bottom: 70px;
+}
 
 
 /* ===================
@@ -62,4 +67,18 @@ Header-css
 }
 .header_img img {
     width: 100%;
+}
+
+
+/* ===================
+About-css
+=================== */
+.about {
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+.about_img img {
+    width: 50%;
 }
