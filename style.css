@@ -7,4 +7,13 @@ Common-css
     padding: 0;
     box-sizing: border-box;
 }
-body{}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    margin-bottom: 60px;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
