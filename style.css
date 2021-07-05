@@ -27,6 +27,9 @@ h1{
 h2{
     font-size: 35px;
 }
+h3{
+    font-size: 20px;
+}
 h1, h2{
     font-weight: 900;
     margin-bottom: 50px;
@@ -81,4 +84,38 @@ About-css
 }
 .about_img img {
     width: 50%;
+}
+
+
+
+/* ===================
+Blog-css
+=================== */
+.blog_header_title {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.post {
+    display: flex;
+    gap: 4%;
+}
+.food_post {
+    width: 33.33%;
+    background: #fff;
+    box-shadow: 0 0 30px lightgrey;
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.food_post img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.food_post h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
 }
